@@ -1,0 +1,48 @@
+*{
+    box-sizing: border-box;
+}
+header h1{
+    text-align: center;
+    font-size: 42px;
+    color: aliceblue;
+}
+header{
+    background-color:  rgb(4, 188, 169);
+    padding: 28px;
+}
+nav{
+    background-color: rgb(58, 82, 82);
+    padding: 10px;
+}
+nav a{
+    color: white;
+    padding: 115px;
+    text-decoration: none;
+}
+
+main h2{
+    text-align: center;
+}
+img{
+    padding: 10px;
+}
+section{
+    min-height: 50vh;
+}
+section h5{
+    margin: 40px;
+}
+
+main{
+    text-align: center;
+}
+footer{
+    background-color: black;
+    padding: 10px;
+    overflow: hidden;
+}
+ footer a{
+    color: white;
+    padding: 80px;
+    text-decoration: none;
+ }
