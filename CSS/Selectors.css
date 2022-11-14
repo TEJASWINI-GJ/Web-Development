@@ -1,0 +1,51 @@
+/*-------------------------------------TypeSelectors-------------------------------------------*/
+p{
+    color: brown;
+}
+em{
+    font-weight: bolder;
+    color: brown;
+}
+
+/*-------------------------------------ClassSelectors-------------------------------------------*/
+
+li.CS{
+    color: cornflowerblue;
+}
+
+/*-------------------------------------PseudoSelectors-------------------------------------------*/
+a{
+    color: black;
+}
+.hover a:hover{
+    color: deeppink;
+    text-decoration: none;
+}
+
+.visited a:visited{
+    color: darkorange;
+}
+
+.Active a:active{
+   background-color: aquamarine;
+}
+
+/*-------------------------------------IdSelectors-------------------------------------------*/
+#List{
+    font-style: italic;
+    font-weight: 900;
+}
+
+li{
+    color: rgb(11, 192, 198);
+}
+
+/*-------------------------------------AttributeSelectors-------------------------------------------*/
+li[class=AS1]{
+    font-variant: small-caps;
+}
+
+/*-------------------------------------UniversalSelectors-------------------------------------------*/
+*{
+   
+}
