@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Application Form</title>
+    <link rel="stylesheet" href="/Project2_JobApplicationWebsite/jobAplication.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="contentbox">
+            <h3>Employment Application</h3>
+            <img src="/Project2_JobApplicationWebsite/logo.jpeg" alt="logo">
+            <p>Please fill out the fields below as thoroughly and honestly as possible. This information will help us decide if you are a good fit for any of our open positions.
+            </p>
+            <p>Note: The sections marked with
+                <span style="color: red;"> <b> red asterisk </b> </span> are non-optional
+            </p><br>
+
+            <form action="">
+                <div class="formcontainer">
+
+                   <div class="formcontent">
+                        <label for="fname">First Name <span style="color: red;">*</span></label>
+                        <input id="fname" type="text" placeholder="Enter First Name" required>
+                    </div>
+
+                    <div class="formcontent">
+                        <label for="lname">Last Name <span style="color: red;">*</span></label>
+                        <input id="lname" type="text" placeholder="Enter Last Name" required>
+                    </div>
+
+                    <div class="formcontent">
+                        <label for="email">Email <span style="color: red;">*</span></label>
+                        <input type="email" id="email" placeholder="Enter Email Id" required>
+                    </div>
+
+                    <div class="formcontent">
+                        <label for="jobrole">Job Role <span style="color: red;">*</span></label>
+                        <select required>
+                            <option value="">--Select Job Role--</option>
+                            <option value="FrontEnd">FrontEnd Developer</option>
+                            <option value="Backend">Backend Developer</option>
+                            <option value="FullStack">Full Stack Developer</option>
+                            <option value="UI UX Designer">UI UX Designer</option>
+                        </select>
+                    </div>
+
+                    <div class="addresscontent">
+                        <label for="address">Enter Address <span style="color: red;">*</span></label>
+                        <textarea id="address" cols="50" rows="5" required></textarea>
+                    </div>    
+
+                    <div class="formcontent">
+                        <label for="pincode">Pincode <span style="color: red;">*</span></label>
+                        <input type="number" id="pincode" placeholder="Enter Pincode" required>
+                    </div>
+                    
+                    <div class="formcontent">
+                        <label for="qualification">Qualification <span style="color: red;">*</span></label>
+                        <select id="qualification" required>
+                            <option value="">--Select Qualification--</option>
+                            <option value="">Intermediate</option>
+                            <option value="">B.Tech</option>
+                            <option value="">M.Tech</option>
+                            <option value="">PhD</option>
+                        </select>
+                    </div>
+
+                    <div class="formcontent">
+                        <label for="date">Start Date <span style="color: red;">*</span></label>
+                        <input type="date" id="date" required>
+                    </div>
+
+                    <div class="formcontent">
+                        <label for="file">Upload Your CV <span style="color: red;">*</span></label>
+                        <input type="file" id="file" required>
+                   </div> 
+
+                </div>
+
+                <div class="buttoncontainer">
+                    <button type="submit">Apply Now</button>
+                </div>
+            </form>
+
+        </div>
+    </div>
+</body>
+
+</html>
